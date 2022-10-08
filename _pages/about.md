@@ -2,24 +2,21 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: AbhishekProfile.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address:
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hello! My name is Abhishek, I am a Bay Area native and a current fourth year medical student at University of Michigan. From a young age I have been fascinated with computers and biology. I found an intersection between the two in undergrad while [working at UCSF](https://www.news.ucsb.edu/2017/018088/treat-or-not-treat). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+The experience set me on the path of one day becoming a physician scientist. My mission is to learn from the needs of my patients and leverage my background in computer science to build novel solutions that can benefit everybody. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+At the moment, that has meant working with Dr. Hollon at the [Machine Learning in Neurosurgery Lab](https://hollon.lab.medicine.umich.edu/) to devise a new method for single cell analysis of brain tumors using vision-based AI. I am also taking my experience at the [local free clinic](https://www.umstudentrunfreeclinic.org/) to create a digital social health platform called OneClinic. 
