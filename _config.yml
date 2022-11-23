@@ -3,10 +3,10 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Abhishek
+first_name: Satyasaran
 middle_name:
-last_name: Bhattacharya
-email: abhishbh+website@umich.edu
+last_name: Changdar
+email: satyasaran.changdar@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: 
@@ -64,9 +64,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: abbirdboy # your GitHub user name
+github_username: satyasaran # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: abbirdboy # your Twitter handle
+twitter_username: satyasaran # your Twitter handle
 linkedin_username: # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
