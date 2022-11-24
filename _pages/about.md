@@ -17,5 +17,9 @@ social: true  # includes social icons at the bottom of the page
 
 I am Satyasaran Changdar, Postdoc in Machine Learning, University of Copenhagen, Denmark and completed my Ph.D. in applied mathematics in 2019 at University of Calcutta, master of technology in computer applications from Indian Institute of Technology, Delhi, India in 2008 and masters in mathematics at Indian Institute of Technology, Bombay, India in 2005.
 
-I specialize in Machine Learning, Deep Learning and Data-driven Scientific Computing. I have been actively involved in the development of machine learning methods that extract patterns from multimodal agriculture data in crop science from [Radimax](https://cropinnovation.dk/some-of-the-projects/radimax/) in  [Radibooster project] (https://plen.ku.dk/english/research/crop_sciences/cpps/radibooster/). 
+I specialize in Machine Learning, Deep Learning and Data-driven Scientific Computing. I have been actively involved in the development of machine learning methods that extract patterns from multimodal agriculture data in crop science from [RadiMax](https://cropinnovation.dk/some-of-the-projects/radimax/) in  [RadiBooster project](https://plen.ku.dk/english/research/crop_sciences/cpps/radibooster/). 
+
+I also have been collaborating with [Dr.Soumen De](https://scholar.google.co.in/citations?user=ZwIi7oUAAAAJ&hl=en) and two guiding Phd Students in University of Calcutta, India.
+
+
 
