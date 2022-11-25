@@ -67,8 +67,8 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 github_username: satyasaran # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: satyasaran # your Twitter handle
-linkedin_username: # your LinkedIn user name
-scholar_userid: # your Google Scholar ID
+linkedin_username: satyasaran.changdar@gmail.com # your LinkedIn user name
+scholar_userid: satyasaran.changdar@gmail.com # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 orcid_id: 0000-0002-7704-8315 # your ORCID ID
 medium_username: # your Medium username
@@ -76,7 +76,7 @@ quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-work_url: # work page URL
+work_url: https://di.ku.dk/english/staff/vip/?pure=en/persons/723168# work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 dblp_url: # your DBLP profile url
