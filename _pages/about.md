@@ -15,7 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am [Satyasaran Changdar](https://di.ku.dk/english/staff/vip/?pure=en/persons/723168), Postdoc in Machine Learning, [University of Copenhagen]under the Supervisons of [Dr. Erik Bjørnager Dam](https://di.ku.dk/english/staff/?pure=en/persons/93620), Professor, [Department of Computer Science](https://www.ku.dk/english/), University of Copenhagen and [Dr. Kristian Thorup-Kristensen](https://plen.ku.dk/english/employees/?pure=en/persons/143157)
+I am [Satyasaran Changdar](https://di.ku.dk/english/staff/vip/?pure=en/persons/723168), Postdoc in Machine Learning, [University of Copenhagen](https://www.ku.dk/english/) under the Supervisons of [Dr. Erik Bjørnager Dam](https://di.ku.dk/english/staff/?pure=en/persons/93620), Professor, Department of Computer Science, University of Copenhagen and [Dr. Kristian Thorup-Kristensen](https://plen.ku.dk/english/employees/?pure=en/persons/143157)
 Professor, Department of Plant and Environmental Sciences University of Copenhagen, Denmark
  and completed my Ph.D. in applied mathematics in 2019 at [University of Calcutta](https://www.caluniv.ac.in), master of technology in computer applications from [Indian Institute of Technology, Delhi](https://home.iitd.ac.in), India in 2008 and masters in mathematics at [Indian Institute of Technology, Bombay](www.iitb.ac.in), India in 2005. 
 Before joining Postdoc, I was working as an associate professor in [Institute of engineering and Management](https://iem.edu.in), Kolkata, India.
