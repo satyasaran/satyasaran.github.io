@@ -22,7 +22,7 @@ Before joining Postdoc, I was working as an associate professor in [Institute of
 
 I specialize in Physics-informed Machine Learning, Deep Learning and Data-driven Scientific Computing. I have been actively involved in the development of machine learning methods that extract patterns from multimodal agriculture data in crop science from [RadiMax](https://cropinnovation.dk/some-of-the-projects/radimax/) in  [RadiBooster project](https://plen.ku.dk/english/research/crop_sciences/cpps/radibooster/). 
 
-I have been collaborating with [Dr. Soumen De](https://scholar.google.co.in/citations?user=ZwIi7oUAAAAJ&hl=en) and supervising Phd Students [Bivas Bhaumik](https://scholar.google.com/citations?user=FfG_kKQAAAAJ&hl=en&authuser=3) and [Susmita Saha](https://www.researchgate.net/profile/Susmita-Saha-16) in University of Calcutta, India.
+I have been collaborating with my PhD supervisor [Dr. Soumen De](https://scholar.google.co.in/citations?user=ZwIi7oUAAAAJ&hl=en) and supervising Phd Students [Bivas Bhaumik](https://scholar.google.com/citations?user=FfG_kKQAAAAJ&hl=en&authuser=3) and [Susmita Saha](https://www.researchgate.net/profile/Susmita-Saha-16) in University of Calcutta, India.
 
 
 
