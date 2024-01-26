@@ -33,13 +33,14 @@ This project investigates the relationship between root distribution and resourc
 ### Results
 Here are some images showcasing the results:
 
-<div class="project-images">
+<div class="project-images" style="border: 2px solid #007bff; padding: 10px;">
     <img src="/assets/img/Fig2.jpeg" alt="Result 1" style="width: 400px;">
     <img src="/assets/img/Fig5a.jpeg" alt="Result 2" style="width: 400px;">
     <img src="/assets/img/Fig3a.jpeg" alt="Result 3" style="width: 400px;">
     <img src="/assets/img/Fig6a_left.jpeg" alt="Result 3" style="width: 400px;">
 </div>
 
+---
 
 ## Radimax: Project 2: Deep Learning for sub-soil Image analysis to investigate deep root function 
 
@@ -50,13 +51,13 @@ In this project, our objective was to employ deep learning techniques to analyze
 
 Here are some images showcasing the results:
 
-<div class="project-images">
+<div class="project-images" style="border: 2px solid #007bff; padding: 10px;">
     <img src="/assets/img/grad1.png" alt="Result 1" style="width: 600px;">
     <img src="/assets/img/grad2.png" alt="Result 2" style="width: 600px;">
     <img src="/assets/img/grad3.png" alt="Result 3" style="width: 600px;">
 </div>
 
-
+---
 
 ## Project 3: Solving Non-liner Blood flow using Physics-informed Neural network
 [Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
@@ -67,15 +68,11 @@ This work introduces a Python implementation of solution of non-liner PDEs arisi
 
 Here are some images showcasing the results:
 [Image sources: published Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
-<div class="project-images">
+<div class="project-images" style="border: 2px solid #007bff; padding: 10px;">
     <img src="/assets/img/pinn.jpg" alt="Result 1" style="width: 500px;">
     <img src="/assets/img/loss.jpg" alt="Result 2" style="width: 500px;">
       <img src="/assets/img/sol1.jpg" alt="Result 3" style="width: 500px;">
       <img src="/assets/img/bay.jpg" alt="Result 3" style="width: 500px;">
     <img src="/assets/img/sol2.jpg" alt="Result 3" style="width: 500px;">
     <img src="/assets/img/sol3.jpg" alt="Result 3" style="width: 500px;">
-
 </div>
-
-
-
