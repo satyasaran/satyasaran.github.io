@@ -38,8 +38,8 @@ In Project 1, our objective was to employ deep learning techniques to analyze su
 Here are some images showcasing the results:
 
 <div class="project-images">
-    <img src="/assets/project1_image1.jpg" alt="Result 1">
-    <img src="/assets/project1_image2.jpg" alt="Result 2">
+    <img src="/assets/img/sal.png" alt="Result 1">
+    <img src="/assets/img/grad.png" alt="Result 2">
     <img src="/assets/project1_image3.jpg" alt="Result 3">
 </div>
 
@@ -52,9 +52,8 @@ Description of the project goes here. You can include details about the methodol
 Here are some images showcasing the results:
 
 <div class="project-images">
-    <img src="/assets/project2_image1.jpg" alt="Result 1">
-    <img src="/assets/project2_image2.jpg" alt="Result 2">
-    <img src="/assets/project2_image3.jpg" alt="Result 3">
+    <img src="/assets/img/sal.png" alt="Result 1">
+    <img src="/assets/img/grad.png" alt="Result 2">
+    <img src="/assets/project1_image3.jpg" alt="Result 3">
 </div>
-
 
