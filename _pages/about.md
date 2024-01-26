@@ -43,7 +43,7 @@ Here are some images showcasing the results:
 
 ## Radimax: Project 2: Deep Learning for sub-soil Image analysis to investigate deep root function 
 
-In this Project, our objective was to employ deep learning techniques to analyze sub-soil images and investigate the function of deep roots in plant physiology. Specifically, we utilized transfer learning with the ResNet50 architecture to develop regression and classification models for root length estimation and root function investigation.
+In this project, our objective was to employ deep learning techniques to analyze sub-soil images and investigate the function of deep roots in plant physiology. Specifically, we utilized transfer learning with the ResNet50 architecture to develop regression and classification models for root length estimation and root function investigation.
 
 
 ### Results
