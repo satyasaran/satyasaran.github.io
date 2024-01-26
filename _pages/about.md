@@ -26,7 +26,7 @@ I have been collaborating with my PhD supervisor [Dr. Soumen De](https://scholar
 
 ...
 
-# Projects
+# Research Projects
 ## Radimax: Project 1:  Machine Learning for understanding plant root function [Paper Link:](https://doi.org/10.1007/s11104-023-06253-7)
 [code link](https://github.com/satyasaran/CropML.git)
 
@@ -42,7 +42,7 @@ Here are some images showcasing the results:
 </div>
 
 
-## Radimax: Project 2: Deep Learning for sub-soil Image analysis to investigate deep root fuction 
+## Radimax: Project 2: Deep Learning for sub-soil Image analysis to investigate deep root function 
 
 In Project 1, our objective was to employ deep learning techniques to analyze sub-soil images and investigate the function of deep roots in plant physiology. Specifically, we utilized transfer learning with the ResNet50 architecture to develop regression and classification models for root length estimation and root function investigation.
 
@@ -55,9 +55,24 @@ Here are some images showcasing the results:
     <img src="/assets/img/grad1.png" alt="Result 1" style="width: 800px;">
     <img src="/assets/img/grad2.png" alt="Result 2" style="width: 800px;">
     <img src="/assets/img/grad3.png" alt="Result 3" style="width: 800px;">
-</div>
+</div
 
-## Project 2: Image Segmentation in Agriculture
+## Project 3: Solving Non-liner Blood flow using Physics-informed Neural network
+
+This work introduces a Python implementation of solution of non-liner PDEs arising in the process of arterial blood flow using DeepXDE. The proposed deep learning approach analyzes perturbations in arterial blood flow, with a focus on pressure and radius variations. The research develops a mathematical model for simulating viscoelastic arterial flow, incorporating long wavelength and large Reynolds number assumptions. Leveraging the reductive perturbation method, the study derives nonlinear evolutionary equations for medium resistance, elastic properties, and wall viscosity. By employing state-of-the-art physics-informed deep neural networks, trained via automatic differentiation, the implementation efficiently solves these equations. Bayesian Hyperparameter Optimization identifies the optimal neural network architecture, providing an efficient and accurate alternative to numerical methods for medical machine learning applications.
+
+### Results
+
+Here are some images showcasing the results:
+
+<div class="project-images">
+    <img src="/assets/img/pinn.jpg" alt="Result 1" style="width: 800px;">
+    <img src="/assets/img/loss.jpg" alt="Result 2" style="width: 800px;">
+    <img src="/assets/img/sol1.jpg" alt="Result 3" style="width: 800px;">
+    <img src="/assets/img/sol2.jpg" alt="Result 3" style="width: 800px;">
+    <img src="/assets/img/sol3.jpg" alt="Result 3" style="width: 800px;">
+
+</div
 
 
 
