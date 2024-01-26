@@ -53,9 +53,9 @@ In Project 1, our objective was to employ deep learning techniques to analyze su
 Here are some images showcasing the results:
 
 <div class="project-images">
-    <img src="/assets/img/grad1.png" alt="Result 1" style="width: 500px;">
-    <img src="/assets/img/grad2.png" alt="Result 2" style="width: 500px;">
-    <img src="/assets/img/grad3.png" alt="Result 3" style="width: 500px;">
+    <img src="/assets/img/grad1.png" alt="Result 1" style="width: 600px;">
+    <img src="/assets/img/grad2.png" alt="Result 2" style="width: 600px;">
+    <img src="/assets/img/grad3.png" alt="Result 3" style="width: 600px;">
 </div>
 
 
