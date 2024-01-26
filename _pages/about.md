@@ -72,8 +72,9 @@ Here are some images showcasing the results:
 <div class="project-images">
     <img src="/assets/img/pinn.jpg" alt="Result 1" style="width: 500px;">
     <img src="/assets/img/loss.jpg" alt="Result 2" style="width: 500px;">
+      <img src="/assets/img/sol1.jpg" alt="Result 3" style="width: 500px;">
+      <img src="/assets/img/bay.jpg" alt="Result 3" style="width: 500px;">
     <img src="/assets/img/sol2.jpg" alt="Result 3" style="width: 500px;">
-    <img src="/assets/img/sol1.jpg" alt="Result 3" style="width: 500px;">
     <img src="/assets/img/sol3.jpg" alt="Result 3" style="width: 500px;">
 
 </div>
