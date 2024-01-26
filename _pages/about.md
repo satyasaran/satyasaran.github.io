@@ -22,9 +22,7 @@ Before joining Postdoc, I was working as an associate professor in [Institute of
 
 I specialize in Machine Learning, Deep Learning, Physics-informed Machine Learning, and Data-driven Scientific Computing. I have been actively involved in the development of machine learning methods that extract patterns from multimodal agriculture data in crop science from [RadiMax](https://cropinnovation.dk/some-of-the-projects/radimax/) in  [RadiBooster project](https://plen.ku.dk/english/research/crop_sciences/cpps/radibooster/). 
 
-I have been collaborating with my PhD supervisor [Dr. Soumen De](https://scholar.google.co.in/citations?user=ZwIi7oUAAAAJ&hl=en) and supervising Phd Students [Bivas Bhaumik](https://scholar.google.com/citations?user=FfG_kKQAAAAJ&hl=en&authuser=3) and [Susmita Saha](https://www.researchgate.net/profile/Susmita-Saha-16) in University of Calcutta, India.
-
-...
+I have been collaborating with my PhD supervisor [Dr. Soumen De](https://scholar.google.co.in/citations?user=ZwIi7oUAAAAJ&hl=en) and supervised [Bivas Bhaumik] during his PhD (https://scholar.google.com/citations?user=FfG_kKQAAAAJ&hl=en&authuser=3) and [Susmita Saha](https://www.researchgate.net/profile/Susmita-Saha-16) in University of Calcutta, India.
 
 # Research Projects
 
@@ -45,7 +43,7 @@ Here are some images showcasing the results:
 
 ## Radimax: Project 2: Deep Learning for sub-soil Image analysis to investigate deep root function 
 
-In Project 1, our objective was to employ deep learning techniques to analyze sub-soil images and investigate the function of deep roots in plant physiology. Specifically, we utilized transfer learning with the ResNet50 architecture to develop regression and classification models for root length estimation and root function investigation.
+In this Project, our objective was to employ deep learning techniques to analyze sub-soil images and investigate the function of deep roots in plant physiology. Specifically, we utilized transfer learning with the ResNet50 architecture to develop regression and classification models for root length estimation and root function investigation.
 
 
 ### Results
