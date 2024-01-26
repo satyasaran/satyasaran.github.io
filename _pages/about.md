@@ -33,9 +33,9 @@ This project investigates the relationship between root distribution and resourc
 Here are some images showcasing the results:
 
 <div class="project-images">
-    <img src="/assets/img/grad1.png" alt="Result 1">
-    <img src="/assets/img/grad2.png" alt="Result 2">
-    <img src="/assets/img/grad3.png" alt="Result 3">
+    <img src="/assets/img/Fig2.jpeg" alt="Result 1">
+    <img src="/assets/img/Fig5a.jpeg" alt="Result 2">
+    <img src="/assets/img/Fig6a_left.jpeg" alt="Result 3">
 </div>
 
 
