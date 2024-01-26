@@ -1,7 +1,4 @@
 
-<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-
 ---
 layout: about
 title: about
@@ -67,19 +64,6 @@ Here are some images showcasing the results:
 [Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
 
 This work introduces a Python implementation of solution of non-liner PDEs arising in the process of arterial blood flow using DeepXDE. The proposed deep learning approach analyzes perturbations in arterial blood flow, with a focus on pressure and radius variations. The research develops a mathematical model for simulating viscoelastic arterial flow, incorporating long wavelength and large Reynolds number assumptions. Leveraging the reductive perturbation method, the study derives nonlinear evolutionary equations for medium resistance, elastic properties, and wall viscosity. By employing state-of-the-art physics-informed deep neural networks, trained via automatic differentiation, the implementation efficiently solves these equations. Bayesian Hyperparameter Optimization identifies the optimal neural network architecture, providing an efficient and accurate alternative to numerical methods for medical machine learning applications.
-The  following equations were used:
-\[
-u_{t}+u u_{x}=\frac{1}{2} u_{x x}, \tag{1}
-\]
-
-\[
-u_{t}+u u_{x}+\frac{\gamma-\beta}{2} u_{x x x}=0, \tag{2}
-\]
-
-\[
-u_{t}+u u_{x}+\frac{1}{2} u_{x x x x}=0. \tag{3}
-\]
-
 
 ### Results
 
