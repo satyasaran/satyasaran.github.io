@@ -24,6 +24,37 @@ I specialize in Machine Learning, Deep Learning, Physics-informed Machine Learni
 
 I have been collaborating with my PhD supervisor [Dr. Soumen De](https://scholar.google.co.in/citations?user=ZwIi7oUAAAAJ&hl=en) and supervising Phd Students [Bivas Bhaumik](https://scholar.google.com/citations?user=FfG_kKQAAAAJ&hl=en&authuser=3) and [Susmita Saha](https://www.researchgate.net/profile/Susmita-Saha-16) in University of Calcutta, India.
 
+...
 
+# Projects
+
+## Project 1: Deep Learning for sub-soil Image analysis to investigate deep root fuction 
+
+In Project 1, our objective was to employ deep learning techniques to analyze sub-soil images and investigate the function of deep roots in plant physiology. Specifically, we utilized transfer learning with the ResNet50 architecture to develop regression models for root length estimation and root classification and root function models
+
+
+### Results
+
+Here are some images showcasing the results:
+
+<div class="project-images">
+    <img src="/assets/project1_image1.jpg" alt="Result 1">
+    <img src="/assets/project1_image2.jpg" alt="Result 2">
+    <img src="/assets/project1_image3.jpg" alt="Result 3">
+</div>
+
+## Project 2: Image Segmentation in Agriculture
+
+Description of the project goes here. You can include details about the methodology, objectives, and outcomes.
+
+### Results
+
+Here are some images showcasing the results:
+
+<div class="project-images">
+    <img src="/assets/project2_image1.jpg" alt="Result 1">
+    <img src="/assets/project2_image2.jpg" alt="Result 2">
+    <img src="/assets/project2_image3.jpg" alt="Result 3">
+</div>
 
 
