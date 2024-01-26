@@ -60,13 +60,14 @@ Here are some images showcasing the results:
 
 
 # Project 3: Solving Non-liner Blood flow using Physics-informed Neural network
+[Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
 
 This work introduces a Python implementation of solution of non-liner PDEs arising in the process of arterial blood flow using DeepXDE. The proposed deep learning approach analyzes perturbations in arterial blood flow, with a focus on pressure and radius variations. The research develops a mathematical model for simulating viscoelastic arterial flow, incorporating long wavelength and large Reynolds number assumptions. Leveraging the reductive perturbation method, the study derives nonlinear evolutionary equations for medium resistance, elastic properties, and wall viscosity. By employing state-of-the-art physics-informed deep neural networks, trained via automatic differentiation, the implementation efficiently solves these equations. Bayesian Hyperparameter Optimization identifies the optimal neural network architecture, providing an efficient and accurate alternative to numerical methods for medical machine learning applications.
 
 ### Results
 
 Here are some images showcasing the results:
-
+[Image sources: published Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
 <div class="project-images">
     <img src="/assets/img/pinn.jpg" alt="Result 1" style="width: 800px;">
     <img src="/assets/img/loss.jpg" alt="Result 2" style="width: 800px;">
