@@ -28,14 +28,16 @@ I have been collaborating with my PhD supervisor [Dr. Soumen De](https://scholar
 
 # Radimax Projects
 ## Project 1:  Machine Learning for understanding plant root function [Paper Link: (https://doi.org/10.1007/s11104-023-06253-7)]
+[code link: https://github.com/satyasaran/CropML.git]
+
 This project investigates the relationship between root distribution and resource uptake in crops using machine learning techniques. The study utilizes the RadiMax semi-field root-screening facility to phenotype winter wheat genotypes for root growth. Square root of planar root length [CNN, Deep learning was used to extract the root length from sub-soil images] density (Sqrt_pRLD) measurements are collected at different soil depths, and their correlation with deep soil nitrogen uptake and drought resilience potential is explored using machine learning models. The results demonstrate the importance of deep rooting for water and nitrogen uptake in crops.
 
 Here are some images showcasing the results:
 
 <div class="project-images">
-    <img src="/assets/img/Fig2.jpeg" alt="Result 1" style="width: 200px;">
-    <img src="/assets/img/Fig5a.jpeg" alt="Result 2" style="width: 200px;">
-    <img src="/assets/img/Fig6a_left.jpeg" alt="Result 3" style="width: 200px;">
+    <img src="/assets/img/Fig2.jpeg" alt="Result 1" style="width: 500px;">
+    <img src="/assets/img/Fig5a.jpeg" alt="Result 2" style="width: 500px;">
+    <img src="/assets/img/Fig6a_left.jpeg" alt="Result 3" style="width: 500px;">
 </div>
 
 
@@ -49,9 +51,9 @@ In Project 1, our objective was to employ deep learning techniques to analyze su
 Here are some images showcasing the results:
 
 <div class="project-images">
-    <img src="/assets/img/grad1.png" alt="Result 1" style="width: 200px;">
-    <img src="/assets/img/grad2.png" alt="Result 2" style="width: 200px;">
-    <img src="/assets/img/grad3.png" alt="Result 3" style="width: 200px;">
+    <img src="/assets/img/grad1.png" alt="Result 1" style="width: 500px;">
+    <img src="/assets/img/grad2.png" alt="Result 2" style="width: 500px;">
+    <img src="/assets/img/grad3.png" alt="Result 3" style="width: 500px;">
 </div>
 
 ## Project 2: Image Segmentation in Agriculture
