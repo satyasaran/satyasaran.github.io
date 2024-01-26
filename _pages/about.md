@@ -61,8 +61,3 @@ Here are some images showcasing the results:
 
 
 
-### Results
-
-Here are some images showcasing the results:
-
-
