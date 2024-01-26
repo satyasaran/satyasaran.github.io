@@ -38,9 +38,9 @@ In Project 1, our objective was to employ deep learning techniques to analyze su
 Here are some images showcasing the results:
 
 <div class="project-images">
-    <img src="/assets/img/sal1.png" alt="Result 1">
-    <img src="/assets/img/sal2.png" alt="Result 2">
-    <img src="/assets/sal3.png" alt="Result 3">
+    <img src="/assets/img/grad1.png" alt="Result 1">
+    <img src="/assets/img/grad2.png" alt="Result 2">
+    <img src="/assets/grad.png" alt="Result 3">
 </div>
 
 ## Project 2: Image Segmentation in Agriculture
@@ -51,9 +51,4 @@ Description of the project goes here. You can include details about the methodol
 
 Here are some images showcasing the results:
 
-<div class="project-images">
-    <img src="/assets/img/grad1.png" alt="Result 1">
-    <img src="/assets/img/grad2.png" alt="Result 2">
-    <img src="/assets/grad3.png" alt="Result 3">
-</div>
 
