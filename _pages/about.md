@@ -40,7 +40,7 @@ Here are some images showcasing the results:
 <div class="project-images">
     <img src="/assets/img/grad1.png" alt="Result 1">
     <img src="/assets/img/grad2.png" alt="Result 2">
-    <img src="/assets/grad.png" alt="Result 3">
+    <img src="/assets/img/grad.png" alt="Result 3">
 </div>
 
 ## Project 2: Image Segmentation in Agriculture
