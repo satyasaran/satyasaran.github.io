@@ -29,7 +29,7 @@ For more details:
 
 <br>
 
-<div style="background-color: #baffea; padding: 10px; border: 1px solid #ddd;">
+<div style="background-color: #ffffff; padding: 10px; border: 1px solid #ddd;">
     <h2 style="margin: 0;font-weight: bold;">Current Research Projects </h2>
 </div>
 <br>
