@@ -103,7 +103,12 @@ Here are some images showcasing the results: [Image sources: published Paper lin
         "/assets/img/sol3.jpg"
     ];
     const imageContainer1 = document.getElementById('imageContainer1');
-    const imgElements1 = imageContainer1.getElementsByTagName('img'); // Corrected variable
+    const imgElements1 = imageContainer1.getElementsByTagName('img');
+
+    // Hide all images except the first one
+    for (let i = 1; i < imgElements1.length; i++) {
+        imgElements1[i].style.display = 'none';
+    }
 
     function nextImage() {
         imgElements1[currentImageIndex1].style.display = 'none';
