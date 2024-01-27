@@ -1,4 +1,4 @@
----
+ ---
 layout: about
 title: about
 permalink: /
@@ -7,19 +7,22 @@ subtitle:
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false
+  image_circular: false # crops the image to make it circular
   address: Universitetsparken 1, 2100 København Ø
 
-news: false
-selected_papers: false
-social: true
+news: false  # includes a list of news items
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: true  # includes social icons at the bottom of the page
 ---
 
-I am [Satyasaran Changdar](https://di.ku.dk/english/staff/vip/?pure=en/persons/723168), Postdoc in Machine Learning, [University of Copenhagen](https://www.ku.dk/english/) under the Supervisons of [Dr. Erik Bjørnager Dam](https://di.ku.dk/english/staff/?pure=en/persons/93620), Professor, [Department of Computer Science](https://di.ku.dk/english/), University of Copenhagen and [Dr. Kristian Thorup-Kristensen](https://plen.ku.dk/english/employees/?pure=en/persons/143157) Professor, [Department of Plant and Environmental Sciences](https://plen.ku.dk/english/), University of Copenhagen, Denmark and completed my Ph.D. in applied mathematics in 2019 at [University of Calcutta](https://www.caluniv.ac.in), master of technology in computer applications from [Indian Institute of Technology, Delhi](https://home.iitd.ac.in), India in 2008 and masters in mathematics at [Indian Institute of Technology, Bombay](www.iitb.ac.in), India in 2005. Before joining Postdoc, I was working as an associate professor in [Institute of engineering and Management](https://iem.edu.in), Kolkata, India.
+I am [Satyasaran Changdar](https://di.ku.dk/english/staff/vip/?pure=en/persons/723168), Postdoc in Machine Learning, [University of Copenhagen](https://www.ku.dk/english/) under the Supervisons of [Dr. Erik Bjørnager Dam](https://di.ku.dk/english/staff/?pure=en/persons/93620), Professor, [Department of Computer Science](https://di.ku.dk/english/), University of Copenhagen and [Dr. Kristian Thorup-Kristensen](https://plen.ku.dk/english/employees/?pure=en/persons/143157)
+Professor, [Department of Plant and Environmental Sciences](https://plen.ku.dk/english/), University of Copenhagen, Denmark
+ and completed my Ph.D. in applied mathematics in 2019 at [University of Calcutta](https://www.caluniv.ac.in), master of technology in computer applications from [Indian Institute of Technology, Delhi](https://home.iitd.ac.in), India in 2008 and masters in mathematics at [Indian Institute of Technology, Bombay](www.iitb.ac.in), India in 2005. 
+Before joining Postdoc, I was working as an associate professor in [Institute of engineering and Management](https://iem.edu.in), Kolkata, India.
 
-I specialize in Machine Learning, Deep Learning, Physics-informed Machine Learning, and Data-driven Scientific Computing. I have been actively involved in the development of machine learning methods that extract patterns from multimodal agriculture data in crop science from [RadiMax](https://cropinnovation.dk/some-of-the-projects/radimax/) in [RadiBooster project](https://plen.ku.dk/english/research/crop_sciences/cpps/radibooster/).
+I specialize in Machine Learning, Deep Learning, Physics-informed Machine Learning, and Data-driven Scientific Computing. I have been actively involved in the development of machine learning methods that extract patterns from multimodal agriculture data in crop science from [RadiMax](https://cropinnovation.dk/some-of-the-projects/radimax/) in  [RadiBooster project](https://plen.ku.dk/english/research/crop_sciences/cpps/radibooster/). 
 
-I have been collaborating with my PhD supervisor [Dr. Soumen De](https://scholar.google.co.in/citations?user=ZwIi7oUAAAAJ&hl=en), Department of Applied Mathematics, University of Calcutta and have supervised [Bivas Bhaumik](https://scholar.google.com/citations?user=FfG_kKQAAAAJ&hl=en&authuser=3) (Currently Assistant Professor at Department of Mathematics, [NIT Rourkela](https://nitrkl.ac.in), during his PhD. Currently I am supervising [Susmita Saha](https://www.researchgate.net/profile/Susmita-Saha-16) and Soumini Dolui for their PhD at University of Calcutta, India.
+I have been collaborating with my PhD supervisor [Dr. Soumen De](https://scholar.google.co.in/citations?user=ZwIi7oUAAAAJ&hl=en), Department of Applied Mathematics, University of Calcutta and have supervised [Bivas Bhaumik](https://scholar.google.com/citations?user=FfG_kKQAAAAJ&hl=en&authuser=3) (Currently Assistant Prifessor at Department of Mathematics, [NIT Rourkela](https://nitrkl.ac.in),  during his PhD. Currently I am supervising [Susmita Saha](https://www.researchgate.net/profile/Susmita-Saha-16) and Soumini Dolui for their PhD at University of Calcutta, India.
 
 # Research Projects
 
@@ -27,36 +30,15 @@ I have been collaborating with my PhD supervisor [Dr. Soumen De](https://scholar
 [code link](https://github.com/satyasaran/CropML.git)
 
 This project investigates the relationship between root distribution and resource uptake in crops using machine learning techniques. The study utilizes the RadiMax semi-field root-screening facility to phenotype winter wheat genotypes for root growth. Square root of planar root length [CNN, Deep learning was used to extract the root length from sub-soil images] density (Sqrt_pRLD) measurements are collected at different soil depths, and their correlation with deep soil nitrogen uptake and drought resilience potential is explored using machine learning models. The results demonstrate the importance of deep rooting for water and nitrogen uptake in crops.
-
 ### Results
-<div class="project-images" id="imageContainer1">
+Here are some images showcasing the results:
+
+<div class="project-images" style="border: 4px solid goldenrod; padding: 10px;">
     <img src="/assets/img/Fig2.jpeg" alt="Result 1" style="width: 400px;">
     <img src="/assets/img/Fig5a.jpeg" alt="Result 2" style="width: 400px;">
     <img src="/assets/img/Fig3a.jpeg" alt="Result 3" style="width: 400px;">
-    <img src="/assets/img/Fig6a_left.jpeg" alt="Result 4" style="width: 400px;">
+    <img src="/assets/img/Fig6a_left.jpeg" alt="Result 3" style="width: 400px;">
 </div>
-
-<button onclick="nextImages()">Next</button>
-
-<script>
-    let currentImageIndex = 0;
-    const images = [
-        "/assets/img/Fig2.jpeg",
-        "/assets/img/Fig5a.jpeg",
-        "/assets/img/Fig3a.jpeg",
-        "/assets/img/Fig6a_left.jpeg"
-    ];
-
-    function nextImages() {
-        currentImageIndex++;
-        if (currentImageIndex >= images.length) {
-            currentImageIndex = 0; // Reset to the first image
-        }
-        const currentImage = images[currentImageIndex];
-        const imageContainer = document.getElementById('imageContainer1');
-        imageContainer.innerHTML = `<img src="${currentImage}" alt="Result ${currentImageIndex + 1}" style="width: 400px;">`;
-    }
-</script>
 
 ---
 
@@ -74,7 +56,6 @@ Here are some images showcasing the results:
     <img src="/assets/img/grad2.png" alt="Result 2" style="width: 600px;">
     <img src="/assets/img/grad3.png" alt="Result 3" style="width: 600px;">
 </div>
-
 ---
 
 ## Project 3: Solving Non-linear partial differential equations in Blood flow modelling using Physics-informed Neural network
