@@ -78,19 +78,43 @@ Here are some images showcasing the results:
 [Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
 
 This work introduces a Python implementation of solution of non-liner PDEs arising in the process of arterial blood flow using DeepXDE. The proposed deep learning approach analyzes perturbations in arterial blood flow, with a focus on pressure and radius variations. The research develops a mathematical model for simulating viscoelastic arterial flow, incorporating long wavelength and large Reynolds number assumptions. Leveraging the reductive perturbation method, the study derives nonlinear evolutionary equations for medium resistance, elastic properties, and wall viscosity. By employing state-of-the-art physics-informed deep neural networks, trained via automatic differentiation, the implementation efficiently solves these equations. Bayesian Hyperparameter Optimization identifies the optimal neural network architecture, providing an efficient and accurate alternative to numerical methods for medical machine learning applications.
-
 ### Results
 
-Here are some images showcasing the results:
-[Image sources: published Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
-<div class="project-images" style="border: 4px solid goldenrod; padding: 10px;">
+Here are some images showcasing the results: [Image sources: published Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
+
+<div id="imageContainer" class="project-images" style="border: 4px solid goldenrod; padding: 10px;">
     <img src="/assets/img/pinn.jpg" alt="Result 1" style="width: 500px;">
     <img src="/assets/img/loss.jpg" alt="Result 2" style="width: 500px;">
-      <img src="/assets/img/sol1.jpg" alt="Result 3" style="width: 500px;">
-      <img src="/assets/img/bay.jpg" alt="Result 3" style="width: 500px;">
-    <img src="/assets/img/sol2.jpg" alt="Result 3" style="width: 500px;">
-    <img src="/assets/img/sol3.jpg" alt="Result 3" style="width: 500px;">
+    <img src="/assets/img/sol1.jpg" alt="Result 3" style="width: 500px;">
+    <img src="/assets/img/bay.jpg" alt="Result 4" style="width: 500px;">
+    <img src="/assets/img/sol2.jpg" alt="Result 5" style="width: 500px;">
+    <img src="/assets/img/sol3.jpg" alt="Result 6" style="width: 500px;">
 </div>
+
+<button onclick="nextImage()">Next</button>
+
+<script>
+    let currentImageIndex = 0;
+    const images = [
+        "/assets/img/pinn.jpg",
+        "/assets/img/loss.jpg",
+        "/assets/img/sol1.jpg",
+        "/assets/img/bay.jpg",
+        "/assets/img/sol2.jpg",
+        "/assets/img/sol3.jpg"
+    ];
+    const imageContainer = document.getElementById('imageContainer');
+
+    function nextImage() {
+        currentImageIndex = (currentImageIndex + 1) % images.length;
+        const currentImage = images[currentImageIndex];
+        const imgElements = imageContainer.getElementsByTagName('img');
+        for (let i = 0; i < imgElements.length; i++) {
+            imgElements[i].style.display = 'none';
+        }
+        imgElements[currentImageIndex].style.display = 'block';
+    }
+</script>
 
 
 
