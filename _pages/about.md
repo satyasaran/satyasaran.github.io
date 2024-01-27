@@ -31,11 +31,8 @@ I have been collaborating with my PhD supervisor [Dr. Soumen De](https://scholar
 This project investigates the relationship between root distribution and resource uptake in crops using machine learning techniques. The study utilizes the RadiMax semi-field root-screening facility to phenotype winter wheat genotypes for root growth. Square root of planar root length [CNN, Deep learning was used to extract the root length from sub-soil images] density (Sqrt_pRLD) measurements are collected at different soil depths, and their correlation with deep soil nitrogen uptake and drought resilience potential is explored using machine learning models. The results demonstrate the importance of deep rooting for water and nitrogen uptake in crops.
 
 ### Results
-<div class="project-images" id="imageContainer">
+<div id="imageContainer">
     <img src="/assets/img/Fig2.jpeg" alt="Result 1" style="width: 400px;">
-    <img src="/assets/img/Fig5a.jpeg" alt="Result 2" style="width: 400px;">
-    <img src="/assets/img/Fig3a.jpeg" alt="Result 3" style="width: 400px;">
-    <img src="/assets/img/Fig6a_left.jpeg" alt="Result 4" style="width: 400px;">
 </div>
 
 <button onclick="nextImage()">Next</button>
@@ -49,7 +46,6 @@ This project investigates the relationship between root distribution and resourc
         "/assets/img/Fig6a_left.jpeg"
     ];
     const imageContainer = document.getElementById('imageContainer');
-    const nextButton = document.querySelector('button');
 
     function nextImage() {
         currentImageIndex = (currentImageIndex + 1) % images.length;
