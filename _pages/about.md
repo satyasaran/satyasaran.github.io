@@ -120,7 +120,7 @@ This work introduces a Python implementation of solution of non-liner PDEs arisi
 </div>
 ### Results
 
-Here are some images showcasing the results: [Image sources: published Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
+Here are some images showcasing the results: [Image source: published Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
 <div id="imageContainer3" class="project-images" style="border: 4px solid goldenrod; padding: 10px;">
     <img src="/assets/img/pinn.jpg" alt="Result 1" style="width: 500px;">
     <img src="/assets/img/loss.jpg" alt="Result 2" style="width: 500px; display: none;">
