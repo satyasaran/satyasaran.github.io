@@ -100,7 +100,7 @@ Here are some images showcasing the results:
 ---
 
 <br>
-## Project 3: RadiMax: Solving Non-linear partial differential equations in Blood flow modelling using Physics-informed Neural network
+## Project 3: Solving Non-linear partial differential equations in Blood flow modelling using Physics-informed Neural network
 <br>
 [Paper link](https://doi.org/10.1016/j.matcom.2023.10.011) 
 <br>
@@ -168,7 +168,7 @@ Here are some images showcasing the results: [Image sources: published Paper lin
 
 
 <br>
-## Project 3: Fully Automated Tumor Segmentation for Brain MRI data using Multiplanner UNet
+## Project 4: Fully Automated Tumor Segmentation for Brain MRI data using Multiplanner UNet
 <br>
 [Paper link](https://doi.org/10.48550/arXiv.2401.06499)
 
