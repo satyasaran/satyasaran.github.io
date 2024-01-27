@@ -14,6 +14,7 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
+
 I am [Satyasaran Changdar](https://di.ku.dk/english/staff/vip/?pure=en/persons/723168), Postdoc in Machine Learning, [University of Copenhagen](https://www.ku.dk/english/) under the Supervisons of [Dr. Erik Bjørnager Dam](https://di.ku.dk/english/staff/?pure=en/persons/93620), Professor, [Department of Computer Science](https://di.ku.dk/english/), University of Copenhagen and [Dr. Kristian Thorup-Kristensen](https://plen.ku.dk/english/employees/?pure=en/persons/143157)
 Professor, [Department of Plant and Environmental Sciences](https://plen.ku.dk/english/), University of Copenhagen, Denmark
  and completed my Ph.D. in applied mathematics in 2019 at [University of Calcutta](https://www.caluniv.ac.in), master of technology in computer applications from [Indian Institute of Technology, Delhi](https://home.iitd.ac.in), India in 2008 and masters in mathematics at [Indian Institute of Technology, Bombay](www.iitb.ac.in), India in 2005. 
@@ -121,7 +122,7 @@ Here are some images showcasing the results: [Image sources: published Paper lin
     let slideshowIntervalId;
 
     // Function to display the next image
-    function nextImage() {
+    function nextImage1() {
         // Hide the current image
         imgElements1[currentImageIndex1].style.display = 'none';
         // Move to the next image index
@@ -131,22 +132,22 @@ Here are some images showcasing the results: [Image sources: published Paper lin
     }
 
     // Start the slideshow
-    function startSlideshow() {
-        slideshowIntervalId = setInterval(nextImage, 3000);
+    function startSlideshow1() {
+        slideshowIntervalId = setInterval(nextImage1, 3000);
     }
 
     // Stop the slideshow
-    function stopSlideshow() {
+    function stopSlideshow1() {
         clearInterval(slideshowIntervalId);
     }
 
     // Resume the slideshow
-    function resumeSlideshow() {
-        startSlideshow();
+    function resumeSlideshow1() {
+        startSlideshow1();
     }
 
     // Start the slideshow initially
-    startSlideshow();
+    startSlideshow1();
 </script>
 
 
@@ -160,10 +161,3 @@ Here are some images showcasing the results: [Image sources: published Paper lin
 [Paper link](https://doi.org/10.48550/arXiv.2401.06499)
 
 Automated segmentation of distinct tumor regions is critical for accurate diagnosis and treatment planning in pediatric brain tumors. This study evaluates the efficacy of the Multi-Planner U-Net (MPUnet) approach in segmenting different tumor subregions across three challenging datasets: Pediatrics Tumor Challenge (PED), Brain Metastasis Challenge (MET), and Sub-Sahara-Africa Adult Glioma (SSA). These datasets represent diverse scenarios and anatomical variations, making them suitable for assessing the robustness and generalization capabilities of the MPUnet model. By utilizing multi-planar information, the MPUnet architecture aims to enhance segmentation accuracy. Our results show varying performance levels across the evaluated challenges, with the tumor core (TC) class demonstrating relatively higher segmentation accuracy. However, variability is observed in the segmentation of other classes, such as the edema and enhancing tumor (ET) regions. These findings emphasize the complexity of brain tumor segmentation and highlight the potential for further refinement of the MPUnet approach and inclusion of MRI more data and preprocessing.
-
-
-
-
-
-
-
