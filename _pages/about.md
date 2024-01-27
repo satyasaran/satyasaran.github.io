@@ -95,7 +95,14 @@ This work introduces a Python implementation of solution of non-liner PDEs arisi
 ### Results
 
 Here are some images showcasing the results: [Image sources: published Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
-<div id="imageContainer1" class="project-images" style="border: 4px solid goldenrod; padding: 10px;">
+## Project 3: Solving Non-linear partial differential equations in Blood flow modelling using Physics-informed Neural network
+[Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
+
+This work introduces a Python implementation of solution of non-liner PDEs arising in the process of arterial blood flow using DeepXDE. The proposed deep learning approach analyzes perturbations in arterial blood flow, with a focus on pressure and radius variations. The research develops a mathematical model for simulating viscoelastic arterial flow, incorporating long wavelength and large Reynolds number assumptions. Leveraging the reductive perturbation method, the study derives nonlinear evolutionary equations for medium resistance, elastic properties, and wall viscosity. By employing state-of-the-art physics-informed deep neural networks, trained via automatic differentiation, the implementation efficiently solves these equations. Bayesian Hyperparameter Optimization identifies the optimal neural network architecture, providing an efficient and accurate alternative to numerical methods for medical machine learning applications.
+### Results
+
+Here are some images showcasing the results: [Image sources: published Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
+<div id="imageContainer3" class="project-images" style="border: 4px solid goldenrod; padding: 10px;">
     <img src="/assets/img/pinn.jpg" alt="Result 1" style="width: 500px;">
     <img src="/assets/img/loss.jpg" alt="Result 2" style="width: 500px; display: none;">
     <img src="/assets/img/sol1.jpg" alt="Result 3" style="width: 500px; display: none;">
@@ -104,12 +111,12 @@ Here are some images showcasing the results: [Image sources: published Paper lin
     <img src="/assets/img/sol3.jpg" alt="Result 6" style="width: 500px; display: none;">
 </div>
 
-<button onclick="stopSlideshow()">Stop slide show</button>
-<button onclick="resumeSlideshow()">Resume</button>
+<button onclick="stopSlideshow3()">Stop slide show</button>
+<button onclick="resumeSlideshow3()">Resume</button>
 
 <script>
-    let currentImageIndex1 = 0;
-    const images1 = [
+    let currentImageIndex3 = 0;
+    const images3 = [
         "/assets/img/pinn.jpg",
         "/assets/img/loss.jpg",
         "/assets/img/sol1.jpg",
@@ -117,37 +124,37 @@ Here are some images showcasing the results: [Image sources: published Paper lin
         "/assets/img/sol2.jpg",
         "/assets/img/sol3.jpg"
     ];
-    const imageContainer1 = document.getElementById('imageContainer1');
-    const imgElements1 = imageContainer1.getElementsByTagName('img');
-    let slideshowIntervalId;
+    const imageContainer3 = document.getElementById('imageContainer3');
+    const imgElements3 = imageContainer3.getElementsByTagName('img');
+    let slideshowIntervalId3;
 
-    // Function to display the next image
-    function nextImage1() {
+    // Function to display the next image for Project 3
+    function nextImage3() {
         // Hide the current image
-        imgElements1[currentImageIndex1].style.display = 'none';
+        imgElements3[currentImageIndex3].style.display = 'none';
         // Move to the next image index
-        currentImageIndex1 = (currentImageIndex1 + 1) % images1.length;
+        currentImageIndex3 = (currentImageIndex3 + 1) % images3.length;
         // Show the next image
-        imgElements1[currentImageIndex1].style.display = 'block';
+        imgElements3[currentImageIndex3].style.display = 'block';
     }
 
-    // Start the slideshow
-    function startSlideshow1() {
-        slideshowIntervalId = setInterval(nextImage1, 3000);
+    // Start the slideshow for Project 3
+    function startSlideshow3() {
+        slideshowIntervalId3 = setInterval(nextImage3, 3000);
     }
 
-    // Stop the slideshow
-    function stopSlideshow1() {
-        clearInterval(slideshowIntervalId);
+    // Stop the slideshow for Project 3
+    function stopSlideshow3() {
+        clearInterval(slideshowIntervalId3);
     }
 
-    // Resume the slideshow
-    function resumeSlideshow1() {
-        startSlideshow1();
+    // Resume the slideshow for Project 3
+    function resumeSlideshow3() {
+        startSlideshow3();
     }
 
-    // Start the slideshow initially
-    startSlideshow1();
+    // Start the slideshow for Project 3 initially
+    startSlideshow3();
 </script>
 
 
