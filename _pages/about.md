@@ -8,7 +8,7 @@ profile:
   align: right
   image: satyaku.jpeg
   image_circular: false # crops the image to make it circular
-  address: Universitetsparken 1, 2100 København Ø
+  address: University of Copenhagen, Denmark
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
