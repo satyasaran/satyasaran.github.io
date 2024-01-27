@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: satyaku.jpeg
   image_circular: false # crops the image to make it circular
   address: Universitetsparken 1, 2100 København Ø
 
