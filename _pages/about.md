@@ -90,8 +90,6 @@ Here are some images showcasing the results: [Image sources: published Paper lin
     <img src="/assets/img/sol3.jpg" alt="Result 6" style="width: 500px; display: none;">
 </div>
 
-<button onclick="nextImage()">Next1</button>
-
 <script>
     let currentImageIndex1 = 0;
     const images1 = [
@@ -105,17 +103,20 @@ Here are some images showcasing the results: [Image sources: published Paper lin
     const imageContainer1 = document.getElementById('imageContainer1');
     const imgElements1 = imageContainer1.getElementsByTagName('img');
 
-    // Hide all images except the first one
-    for (let i = 1; i < imgElements1.length; i++) {
-        imgElements1[i].style.display = 'none';
-    }
-
+    // Function to display the next image
     function nextImage() {
+        // Hide the current image
         imgElements1[currentImageIndex1].style.display = 'none';
+        // Move to the next image index
         currentImageIndex1 = (currentImageIndex1 + 1) % images1.length;
+        // Show the next image
         imgElements1[currentImageIndex1].style.display = 'block';
     }
+
+    // Automatically cycle through images every 3 seconds
+    setInterval(nextImage, 4000);
 </script>
+
 
 
 
