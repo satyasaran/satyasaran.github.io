@@ -33,7 +33,7 @@ This project investigates the relationship between root distribution and resourc
     <img src="/assets/img/Fig2.jpeg" alt="Result 1" style="width: 400px;">
 </div>
 
-<button onclick="stopSlideshow()">Stop</button>
+<button onclick="stopSlideshow()">Stop slide show</button>
 <button onclick="resumeSlideshow()">Resume</button>
 
 <script>
@@ -103,7 +103,7 @@ Here are some images showcasing the results: [Image sources: published Paper lin
     <img src="/assets/img/sol3.jpg" alt="Result 6" style="width: 500px; display: none;">
 </div>
 
-<button onclick="stopSlideshow()">Slide show Stop</button>
+<button onclick="stopSlideshow()">Stop slide show</button>
 <button onclick="resumeSlideshow()">Resume</button>
 
 <script>
