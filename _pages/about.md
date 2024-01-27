@@ -30,8 +30,9 @@ I have been collaborating with my PhD supervisor [Dr. Soumen De](https://scholar
     <h2 style="margin: 0;font-weight: bold;">Research Projects </h2>
 </div>
 <br>
-## Radimax: Project 1: Machine Learning for understanding plant root function
-[Paper Link:](https://doi.org/10.1007/s11104-023-06253-7) 
+## Project 1: RadiMax: Machine Learning for understanding plant root function
+<br>
+[Paper link:](https://doi.org/10.1007/s11104-023-06253-7) 
 <br>
 [code link](https://github.com/satyasaran/CropML.git)
 
@@ -79,9 +80,10 @@ This project investigates the relationship between root distribution and resourc
 
 ---
 
-## Radimax: 
-## Project 2:  Deep Learning for sub-soil Image analysis to investigate deep root function 
 
+<br>
+## Project 2: RadiMax: Deep Learning for sub-soil Image analysis to investigate deep root function 
+<br>
 
 In this project, our objective was to employ deep learning techniques to analyze sub-soil images and investigate the function of deep roots in plant physiology. Specifically, we utilized transfer learning with the ResNet50 architecture to develop regression and classification models for root length estimation and root function investigation.
 
@@ -97,17 +99,11 @@ Here are some images showcasing the results:
 </div>
 ---
 
-## Project 3:  Solving Non-linear partial differential equations in Blood flow modelling using Physics-informed Neural network
-[Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
-
-This work introduces a Python implementation of solution of non-liner PDEs arising in the process of arterial blood flow using DeepXDE. The proposed deep learning approach analyzes perturbations in arterial blood flow, with a focus on pressure and radius variations. The research develops a mathematical model for simulating viscoelastic arterial flow, incorporating long wavelength and large Reynolds number assumptions. Leveraging the reductive perturbation method, the study derives nonlinear evolutionary equations for medium resistance, elastic properties, and wall viscosity. By employing state-of-the-art physics-informed deep neural networks, trained via automatic differentiation, the implementation efficiently solves these equations. Bayesian Hyperparameter Optimization identifies the optimal neural network architecture, providing an efficient and accurate alternative to numerical methods for medical machine learning applications.
-### Results
-
-Here are some images showcasing the results: [Image sources: published Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
-
-
-## Project 3:  Solving Non-linear partial differential equations in Blood flow modelling using Physics-informed Neural network
+<br>
+## Project 3: RadiMax: Solving Non-linear partial differential equations in Blood flow modelling using Physics-informed Neural network
+<br>
 [Paper link](https://doi.org/10.1016/j.matcom.2023.10.011) 
+<br>
 [Code Link](https://github.com/satyasaran/BurgerEvoPINN.git)
 
 This work introduces a Python implementation of solution of non-liner PDEs arising in the process of arterial blood flow using DeepXDE. The proposed deep learning approach analyzes perturbations in arterial blood flow, with a focus on pressure and radius variations. The research develops a mathematical model for simulating viscoelastic arterial flow, incorporating long wavelength and large Reynolds number assumptions. Leveraging the reductive perturbation method, the study derives nonlinear evolutionary equations for medium resistance, elastic properties, and wall viscosity. By employing state-of-the-art physics-informed deep neural networks, trained via automatic differentiation, the implementation efficiently solves these equations. Bayesian Hyperparameter Optimization identifies the optimal neural network architecture, providing an efficient and accurate alternative to numerical methods for medical machine learning applications.
@@ -171,12 +167,14 @@ Here are some images showcasing the results: [Image sources: published Paper lin
 
 
 
+<br>
+## Project 3: Fully Automated Tumor Segmentation for Brain MRI data using Multiplanner UNet
+<br>
+[Paper link](https://doi.org/10.48550/arXiv.2401.06499)
 
-
-## Project 4:  Fully Automated Tumor Segmentation for Brain MRI data using Multiplanner UNet
+<br>
 <div class="project-images" style="border: 4px solid goldenrod; padding: 10px;">
     <img src="/assets/img/brain.png" alt="Result 1" style="width: 800px;">
 </div>
-[Paper link](https://doi.org/10.48550/arXiv.2401.06499)
 
 Automated segmentation of distinct tumor regions is critical for accurate diagnosis and treatment planning in pediatric brain tumors. This study evaluates the efficacy of the Multi-Planner U-Net (MPUnet) approach in segmenting different tumor subregions across three challenging datasets: Pediatrics Tumor Challenge (PED), Brain Metastasis Challenge (MET), and Sub-Sahara-Africa Adult Glioma (SSA). These datasets represent diverse scenarios and anatomical variations, making them suitable for assessing the robustness and generalization capabilities of the MPUnet model. By utilizing multi-planar information, the MPUnet architecture aims to enhance segmentation accuracy. Our results show varying performance levels across the evaluated challenges, with the tumor core (TC) class demonstrating relatively higher segmentation accuracy. However, variability is observed in the segmentation of other classes, such as the edema and enhancing tumor (ET) regions. These findings emphasize the complexity of brain tumor segmentation and highlight the potential for further refinement of the MPUnet approach and inclusion of MRI more data and preprocessing.
