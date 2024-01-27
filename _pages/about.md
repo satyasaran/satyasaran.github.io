@@ -90,6 +90,9 @@ Here are some images showcasing the results: [Image sources: published Paper lin
     <img src="/assets/img/sol3.jpg" alt="Result 6" style="width: 500px; display: none;">
 </div>
 
+<button onclick="stopSlideshow()">Stop</button>
+<button onclick="resumeSlideshow()">Resume</button>
+
 <script>
     let currentImageIndex1 = 0;
     const images1 = [
@@ -102,6 +105,7 @@ Here are some images showcasing the results: [Image sources: published Paper lin
     ];
     const imageContainer1 = document.getElementById('imageContainer1');
     const imgElements1 = imageContainer1.getElementsByTagName('img');
+    let slideshowIntervalId;
 
     // Function to display the next image
     function nextImage() {
@@ -113,8 +117,23 @@ Here are some images showcasing the results: [Image sources: published Paper lin
         imgElements1[currentImageIndex1].style.display = 'block';
     }
 
-    // Automatically cycle through images every 3 seconds
-    setInterval(nextImage, 4000);
+    // Start the slideshow
+    function startSlideshow() {
+        slideshowIntervalId = setInterval(nextImage, 3000);
+    }
+
+    // Stop the slideshow
+    function stopSlideshow() {
+        clearInterval(slideshowIntervalId);
+    }
+
+    // Resume the slideshow
+    function resumeSlideshow() {
+        startSlideshow();
+    }
+
+    // Start the slideshow initially
+    startSlideshow();
 </script>
 
 
