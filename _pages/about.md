@@ -30,7 +30,7 @@ For more details:
 <br>
 
 <div style="background-color: #baffea; padding: 10px; border: 1px solid #ddd;">
-    <h2 style="margin: 0;font-weight: bold;">Research Projects </h2>
+    <h2 style="margin: 0;font-weight: bold;">Current Research Projects </h2>
 </div>
 <br>
 ## Project 1: RadiMax: Machine Learning for understanding plant root function
