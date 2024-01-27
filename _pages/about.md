@@ -39,7 +39,13 @@ For more details:
 <br>
 [code link](https://github.com/satyasaran/CropML.git)
 
-This project investigates the relationship between root distribution and resource uptake in crops using machine learning techniques. The study utilizes the RadiMax semi-field root-screening facility to phenotype winter wheat genotypes for root growth. Square root of planar root length [CNN, Deep learning was used to extract the root length from sub-soil images] density (Sqrt_pRLD) measurements are collected at different soil depths, and their correlation with deep soil nitrogen uptake and drought resilience potential is explored using machine learning models. The results demonstrate the importance of deep rooting for water and nitrogen uptake in crops.
+
+<div style="text-align: justify; border: 2px solid black; padding: 10px;">
+    <p>
+        This project investigates the relationship between root distribution and resource uptake in crops using machine learning techniques. The study utilizes the RadiMax semi-field root-screening facility to phenotype winter wheat genotypes for root growth. Square root of planar root length [CNN, Deep learning was used to extract the root length from sub-soil images] density (Sqrt_pRLD) measurements are collected at different soil depths, and their correlation with deep soil nitrogen uptake and drought resilience potential is explored using machine learning models. The results demonstrate the importance of deep rooting for water and nitrogen uptake in crops.
+    </p>
+</div>
+
 
 
 
