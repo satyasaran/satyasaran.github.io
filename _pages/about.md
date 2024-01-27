@@ -24,12 +24,13 @@ I specialize in Machine Learning, Deep Learning, Physics-informed Machine Learni
 
 I have been collaborating with my PhD supervisor [Dr. Soumen De](https://scholar.google.co.in/citations?user=ZwIi7oUAAAAJ&hl=en), Department of Applied Mathematics, University of Calcutta and have supervised [Bivas Bhaumik](https://scholar.google.com/citations?user=FfG_kKQAAAAJ&hl=en&authuser=3) (Currently Assistant Prifessor at Department of Mathematics, [NIT Rourkela](https://nitrkl.ac.in),  during his PhD. Currently I am supervising [Susmita Saha](https://www.researchgate.net/profile/Susmita-Saha-16) and Soumini Dolui for their PhD at University of Calcutta, India.
 
-# Research Projects
+<br>
 
 <div style="background-color: #baffea; padding: 10px; border: 1px solid #ddd;">
-    <h2 style="margin: 0;font-weight: bold;">Radimax: Project 1: Machine Learning for understanding plant root function</h2>
+    <h2 style="margin: 0;font-weight: bold;">Research Projects </h2>
 </div>
-
+<br>
+## Radimax: Project 1: Machine Learning for understanding plant root function
 [Paper Link:](https://doi.org/10.1007/s11104-023-06253-7) 
 <br>
 [code link](https://github.com/satyasaran/CropML.git)
