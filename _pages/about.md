@@ -107,9 +107,9 @@ Here are some images showcasing the results: [Image sources: published Paper lin
     const imgElements1 = imageContainer.getElementsByTagName('img');
 
     function nextImage() {
-        imgElements[currentImageIndex1].style.display = 'none';
+        imgElements1[currentImageIndex1].style.display = 'none';
         currentImageIndex1 = (currentImageIndex1 + 1) % images1.length;
-        imgElements[currentImageIndex1].style.display = 'block';
+        imgElements1[currentImageIndex1].style.display = 'block';
     }
 </script>
 
