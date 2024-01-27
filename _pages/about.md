@@ -82,7 +82,7 @@ This work introduces a Python implementation of solution of non-liner PDEs arisi
 
 Here are some images showcasing the results: [Image sources: published Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
 
-<div id="imageContainer" class="project-images" style="border: 4px solid goldenrod; padding: 10px;">
+<div id="imageContainer1" class="project-images" style="border: 4px solid goldenrod; padding: 10px;">
     <img src="/assets/img/pinn.jpg" alt="Result 1" style="width: 500px;">
     <img src="/assets/img/loss.jpg" alt="Result 2" style="width: 500px; display: none;">
     <img src="/assets/img/sol1.jpg" alt="Result 3" style="width: 500px; display: none;">
@@ -91,11 +91,11 @@ Here are some images showcasing the results: [Image sources: published Paper lin
     <img src="/assets/img/sol3.jpg" alt="Result 6" style="width: 500px; display: none;">
 </div>
 
-<button onclick="nextImage()">Next</button>
+<button onclick="nextImage()">Next1</button>
 
 <script>
-    let currentImageIndex = 0;
-    const images = [
+    let currentImageIndex1 = 0;
+    const images1 = [
         "/assets/img/pinn.jpg",
         "/assets/img/loss.jpg",
         "/assets/img/sol1.jpg",
@@ -103,13 +103,13 @@ Here are some images showcasing the results: [Image sources: published Paper lin
         "/assets/img/sol2.jpg",
         "/assets/img/sol3.jpg"
     ];
-    const imageContainer = document.getElementById('imageContainer');
-    const imgElements = imageContainer.getElementsByTagName('img');
+    const imageContainer1 = document.getElementById('imageContainer1');
+    const imgElements1 = imageContainer.getElementsByTagName('img');
 
     function nextImage() {
-        imgElements[currentImageIndex].style.display = 'none';
-        currentImageIndex = (currentImageIndex + 1) % images.length;
-        imgElements[currentImageIndex].style.display = 'block';
+        imgElements[currentImageIndex1].style.display = 'none';
+        currentImageIndex1 = (currentImageIndex1 + 1) % images1.length;
+        imgElements[currentImageIndex1].style.display = 'block';
     }
 </script>
 
