@@ -14,7 +14,8 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-
+<div style="text-align: justify; border: 2px solid black; padding: 10px;">
+    <p>
 I am [Satyasaran Changdar](https://di.ku.dk/english/staff/vip/?pure=en/persons/723168), Postdoc in Machine Learning, [University of Copenhagen](https://www.ku.dk/english/) under the Supervisons of [Dr. Erik Bjørnager Dam](https://di.ku.dk/english/staff/?pure=en/persons/93620), Professor, [Department of Computer Science](https://di.ku.dk/english/), University of Copenhagen and [Dr. Kristian Thorup-Kristensen](https://plen.ku.dk/english/employees/?pure=en/persons/143157)
 Professor, [Department of Plant and Environmental Sciences](https://plen.ku.dk/english/), University of Copenhagen, Denmark
  and completed my Ph.D. in applied mathematics in 2019 at [University of Calcutta](https://www.caluniv.ac.in) under the supervison of [Dr. Soumen De](https://scholar.google.co.in/citations?user=ZwIi7oUAAAAJ&hl=en) and [Dr. Samiran Ghosh](https://research.caluniv.ac.in/researcher/samiran-ghosh), master of technology in computer applications from [Indian Institute of Technology, Delhi](https://home.iitd.ac.in), India in 2008 and masters in mathematics at [Indian Institute of Technology, Bombay](www.iitb.ac.in), India in 2005. 
@@ -25,6 +26,8 @@ I specialize in Machine Learning, Deep Learning, Physics-informed Machine Learni
 I have been collaborating with my PhD supervisor [Dr. Soumen De](https://scholar.google.co.in/citations?user=ZwIi7oUAAAAJ&hl=en), Department of Applied Mathematics, University of Calcutta and have supervised [Bivas Bhaumik](https://scholar.google.com/citations?user=FfG_kKQAAAAJ&hl=en&authuser=3) (Currently Assistant Prifessor at Department of Mathematics, [NIT Rourkela](https://nitrkl.ac.in),  during his PhD. Currently I am supervising [Susmita Saha](https://www.researchgate.net/profile/Susmita-Saha-16) and Soumini Dolui for their PhD at University of Calcutta, India.
 For more details:
 [Download CV](assets/pdf/CV_satyasaran.pdf)
+    </p>
+</div>
 
 
 <br>
