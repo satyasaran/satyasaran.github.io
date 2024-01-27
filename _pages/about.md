@@ -14,35 +14,6 @@ news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
-
-<div>
-  <p>Number of Visitors: <span id="visitorCount"></span></p>
-</div>
-
-<script>
-  // Function to increment visitor count and display it
-  function incrementVisitorCount() {
-    // Check if visitor count exists in localStorage
-    if (localStorage.getItem('visitorCount')) {
-      // Increment visitor count
-      let count = parseInt(localStorage.getItem('visitorCount')) + 1;
-      // Update visitor count in localStorage
-      localStorage.setItem('visitorCount', count);
-      // Display visitor count
-      document.getElementById('visitorCount').innerText = count;
-    } else {
-      // Initialize visitor count if not exists
-      localStorage.setItem('visitorCount', 1);
-      // Display visitor count
-      document.getElementById('visitorCount').innerText = 1;
-    }
-  }
-
-  // Call incrementVisitorCount function to update count
-  incrementVisitorCount();
-</script>
----
-
 I am [Satyasaran Changdar](https://di.ku.dk/english/staff/vip/?pure=en/persons/723168), Postdoc in Machine Learning, [University of Copenhagen](https://www.ku.dk/english/) under the Supervisons of [Dr. Erik Bjørnager Dam](https://di.ku.dk/english/staff/?pure=en/persons/93620), Professor, [Department of Computer Science](https://di.ku.dk/english/), University of Copenhagen and [Dr. Kristian Thorup-Kristensen](https://plen.ku.dk/english/employees/?pure=en/persons/143157)
 Professor, [Department of Plant and Environmental Sciences](https://plen.ku.dk/english/), University of Copenhagen, Denmark
  and completed my Ph.D. in applied mathematics in 2019 at [University of Calcutta](https://www.caluniv.ac.in), master of technology in computer applications from [Indian Institute of Technology, Delhi](https://home.iitd.ac.in), India in 2008 and masters in mathematics at [Indian Institute of Technology, Bombay](www.iitb.ac.in), India in 2005. 
