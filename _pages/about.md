@@ -72,7 +72,9 @@ This project investigates the relationship between root distribution and resourc
 
 ---
 
-## Radimax: Project 2: Deep Learning for sub-soil Image analysis to investigate deep root function 
+## Radimax: 
+## Project 2:  Deep Learning for sub-soil Image analysis to investigate deep root function 
+
 
 In this project, our objective was to employ deep learning techniques to analyze sub-soil images and investigate the function of deep roots in plant physiology. Specifically, we utilized transfer learning with the ResNet50 architecture to develop regression and classification models for root length estimation and root function investigation.
 
@@ -88,15 +90,18 @@ Here are some images showcasing the results:
 </div>
 ---
 
-## Project 3: Solving Non-linear partial differential equations in Blood flow modelling using Physics-informed Neural network
+## Project 3:  Solving Non-linear partial differential equations in Blood flow modelling using Physics-informed Neural network
 [Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
 
 This work introduces a Python implementation of solution of non-liner PDEs arising in the process of arterial blood flow using DeepXDE. The proposed deep learning approach analyzes perturbations in arterial blood flow, with a focus on pressure and radius variations. The research develops a mathematical model for simulating viscoelastic arterial flow, incorporating long wavelength and large Reynolds number assumptions. Leveraging the reductive perturbation method, the study derives nonlinear evolutionary equations for medium resistance, elastic properties, and wall viscosity. By employing state-of-the-art physics-informed deep neural networks, trained via automatic differentiation, the implementation efficiently solves these equations. Bayesian Hyperparameter Optimization identifies the optimal neural network architecture, providing an efficient and accurate alternative to numerical methods for medical machine learning applications.
 ### Results
 
 Here are some images showcasing the results: [Image sources: published Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
-## Project 3: Solving Non-linear partial differential equations in Blood flow modelling using Physics-informed Neural network
-[Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
+
+
+## Project 3:  Solving Non-linear partial differential equations in Blood flow modelling using Physics-informed Neural network
+[Paper link](https://doi.org/10.1016/j.matcom.2023.10.011) 
+[Code Link](https://github.com/satyasaran/BurgerEvoPINN.git)
 
 This work introduces a Python implementation of solution of non-liner PDEs arising in the process of arterial blood flow using DeepXDE. The proposed deep learning approach analyzes perturbations in arterial blood flow, with a focus on pressure and radius variations. The research develops a mathematical model for simulating viscoelastic arterial flow, incorporating long wavelength and large Reynolds number assumptions. Leveraging the reductive perturbation method, the study derives nonlinear evolutionary equations for medium resistance, elastic properties, and wall viscosity. By employing state-of-the-art physics-informed deep neural networks, trained via automatic differentiation, the implementation efficiently solves these equations. Bayesian Hyperparameter Optimization identifies the optimal neural network architecture, providing an efficient and accurate alternative to numerical methods for medical machine learning applications.
 ### Results
@@ -161,7 +166,7 @@ Here are some images showcasing the results: [Image sources: published Paper lin
 
 
 
-## Project 4: Fully Automated Tumor Segmentation for Brain MRI data using Multiplanner UNet
+## Project 4:  Fully Automated Tumor Segmentation for Brain MRI data using Multiplanner UNet
 <div class="project-images" style="border: 4px solid goldenrod; padding: 10px;">
     <img src="/assets/img/brain.png" alt="Result 1" style="width: 800px;">
 </div>
