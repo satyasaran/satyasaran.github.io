@@ -26,10 +26,8 @@ I have been collaborating with my PhD supervisor [Dr. Soumen De](https://scholar
 
 # Research Projects
 
-## Radimax: Project 1:  Machine Learning for understanding plant root function 
-
-<div style="background-color: #f0f0f0; padding: 10px; border: 1px solid #ddd;">
-    <h2 style="margin: 0;">Radimax: Project 1: Machine Learning for understanding plant root function</h2>
+<div style="background-color: #baffea; padding: 10px; border: 1px solid #ddd;">
+    <h2 style="margin: 0;font-weight: bold;">Radimax: Project 1: Machine Learning for understanding plant root function</h2>
 </div>
 
 [Paper Link:](https://doi.org/10.1007/s11104-023-06253-7) 
