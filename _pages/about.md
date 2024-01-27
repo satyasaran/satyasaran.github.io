@@ -81,7 +81,6 @@ This work introduces a Python implementation of solution of non-liner PDEs arisi
 ### Results
 
 Here are some images showcasing the results: [Image sources: published Paper link](https://doi.org/10.1016/j.matcom.2023.10.011)
-
 <div id="imageContainer1" class="project-images" style="border: 4px solid goldenrod; padding: 10px;">
     <img src="/assets/img/pinn.jpg" alt="Result 1" style="width: 500px;">
     <img src="/assets/img/loss.jpg" alt="Result 2" style="width: 500px; display: none;">
@@ -104,7 +103,7 @@ Here are some images showcasing the results: [Image sources: published Paper lin
         "/assets/img/sol3.jpg"
     ];
     const imageContainer1 = document.getElementById('imageContainer1');
-    const imgElements1 = imageContainer.getElementsByTagName('img');
+    const imgElements1 = imageContainer1.getElementsByTagName('img'); // Corrected variable
 
     function nextImage() {
         imgElements1[currentImageIndex1].style.display = 'none';
