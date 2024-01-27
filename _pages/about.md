@@ -84,11 +84,11 @@ Here are some images showcasing the results: [Image sources: published Paper lin
 
 <div id="imageContainer" class="project-images" style="border: 4px solid goldenrod; padding: 10px;">
     <img src="/assets/img/pinn.jpg" alt="Result 1" style="width: 500px;">
-    <img src="/assets/img/loss.jpg" alt="Result 2" style="width: 500px;">
-    <img src="/assets/img/sol1.jpg" alt="Result 3" style="width: 500px;">
-    <img src="/assets/img/bay.jpg" alt="Result 4" style="width: 500px;">
-    <img src="/assets/img/sol2.jpg" alt="Result 5" style="width: 500px;">
-    <img src="/assets/img/sol3.jpg" alt="Result 6" style="width: 500px;">
+    <img src="/assets/img/loss.jpg" alt="Result 2" style="width: 500px; display: none;">
+    <img src="/assets/img/sol1.jpg" alt="Result 3" style="width: 500px; display: none;">
+    <img src="/assets/img/bay.jpg" alt="Result 4" style="width: 500px; display: none;">
+    <img src="/assets/img/sol2.jpg" alt="Result 5" style="width: 500px; display: none;">
+    <img src="/assets/img/sol3.jpg" alt="Result 6" style="width: 500px; display: none;">
 </div>
 
 <button onclick="nextImage()">Next</button>
@@ -104,17 +104,15 @@ Here are some images showcasing the results: [Image sources: published Paper lin
         "/assets/img/sol3.jpg"
     ];
     const imageContainer = document.getElementById('imageContainer');
+    const imgElements = imageContainer.getElementsByTagName('img');
 
     function nextImage() {
+        imgElements[currentImageIndex].style.display = 'none';
         currentImageIndex = (currentImageIndex + 1) % images.length;
-        const currentImage = images[currentImageIndex];
-        const imgElements = imageContainer.getElementsByTagName('img');
-        for (let i = 0; i < imgElements.length; i++) {
-            imgElements[i].style.display = 'none';
-        }
         imgElements[currentImageIndex].style.display = 'block';
     }
 </script>
+
 
 
 
