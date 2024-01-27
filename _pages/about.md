@@ -25,20 +25,38 @@ I specialize in Machine Learning, Deep Learning, Physics-informed Machine Learni
 I have been collaborating with my PhD supervisor [Dr. Soumen De](https://scholar.google.co.in/citations?user=ZwIi7oUAAAAJ&hl=en), Department of Applied Mathematics, University of Calcutta and have supervised [Bivas Bhaumik](https://scholar.google.com/citations?user=FfG_kKQAAAAJ&hl=en&authuser=3) (Currently Assistant Prifessor at Department of Mathematics, [NIT Rourkela](https://nitrkl.ac.in),  during his PhD. Currently I am supervising [Susmita Saha](https://www.researchgate.net/profile/Susmita-Saha-16) and Soumini Dolui for their PhD at University of Calcutta, India.
 
 # Research Projects
-
 ## Radimax: Project 1:  Machine Learning for understanding plant root function [Paper Link:](https://doi.org/10.1007/s11104-023-06253-7)
 [code link](https://github.com/satyasaran/CropML.git)
 
 This project investigates the relationship between root distribution and resource uptake in crops using machine learning techniques. The study utilizes the RadiMax semi-field root-screening facility to phenotype winter wheat genotypes for root growth. Square root of planar root length [CNN, Deep learning was used to extract the root length from sub-soil images] density (Sqrt_pRLD) measurements are collected at different soil depths, and their correlation with deep soil nitrogen uptake and drought resilience potential is explored using machine learning models. The results demonstrate the importance of deep rooting for water and nitrogen uptake in crops.
-### Results
-Here are some images showcasing the results:
 
-<div class="project-images" style="border: 4px solid goldenrod; padding: 10px;">
+### Results
+<div class="project-images" id="imageContainer">
     <img src="/assets/img/Fig2.jpeg" alt="Result 1" style="width: 400px;">
     <img src="/assets/img/Fig5a.jpeg" alt="Result 2" style="width: 400px;">
     <img src="/assets/img/Fig3a.jpeg" alt="Result 3" style="width: 400px;">
-    <img src="/assets/img/Fig6a_left.jpeg" alt="Result 3" style="width: 400px;">
+    <img src="/assets/img/Fig6a_left.jpeg" alt="Result 4" style="width: 400px;">
 </div>
+
+<button onclick="nextImage()">Next</button>
+
+<script>
+    let currentImageIndex = 0;
+    const images = [
+        "/assets/img/Fig2.jpeg",
+        "/assets/img/Fig5a.jpeg",
+        "/assets/img/Fig3a.jpeg",
+        "/assets/img/Fig6a_left.jpeg"
+    ];
+    const imageContainer = document.getElementById('imageContainer');
+    const nextButton = document.querySelector('button');
+
+    function nextImage() {
+        currentImageIndex = (currentImageIndex + 1) % images.length;
+        const currentImage = images[currentImageIndex];
+        imageContainer.innerHTML = `<img src="${currentImage}" alt="Result ${currentImageIndex + 1}" style="width: 400px;">`;
+    }
+</script>
 
 ---
 
