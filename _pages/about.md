@@ -33,7 +33,8 @@ This project investigates the relationship between root distribution and resourc
     <img src="/assets/img/Fig2.jpeg" alt="Result 1" style="width: 400px;">
 </div>
 
-<button onclick="nextImage()">Next</button>
+<button onclick="stopSlideshow()">Stop</button>
+<button onclick="resumeSlideshow()">Resume</button>
 
 <script>
     let currentImageIndex = 0;
@@ -44,7 +45,7 @@ This project investigates the relationship between root distribution and resourc
         "/assets/img/Fig6a_left.jpeg"
     ];
     const imageContainer = document.getElementById('imageContainer');
-    const nextButton = document.querySelector('button');
+    let slideshowIntervalId;
 
     function nextImage() {
         currentImageIndex = (currentImageIndex + 1) % images.length;
@@ -52,9 +53,21 @@ This project investigates the relationship between root distribution and resourc
         imageContainer.innerHTML = `<img src="${currentImage}" alt="Result ${currentImageIndex + 1}" style="width: 400px;">`;
     }
 
-    // Automatically cycle through images every 3 seconds
-    setInterval(nextImage, 3000);
+    function startSlideshow() {
+        slideshowIntervalId = setInterval(nextImage, 3000);
+    }
+
+    function stopSlideshow() {
+        clearInterval(slideshowIntervalId);
+    }
+
+    function resumeSlideshow() {
+        startSlideshow();
+    }
+
+    startSlideshow();
 </script>
+
 
 ---
 
@@ -90,7 +103,7 @@ Here are some images showcasing the results: [Image sources: published Paper lin
     <img src="/assets/img/sol3.jpg" alt="Result 6" style="width: 500px; display: none;">
 </div>
 
-<button onclick="stopSlideshow()">Stop</button>
+<button onclick="stopSlideshow()">Slide show Stop</button>
 <button onclick="resumeSlideshow()">Resume</button>
 
 <script>
