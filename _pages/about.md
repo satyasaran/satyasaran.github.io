@@ -26,9 +26,6 @@ I specialize in Machine Learning  Deep Learning, Physics-informed Machine Learni
 I have been collaborating with my PhD supervisor [Dr. Soumen De](https://scholar.google.co.in/citations?user=ZwIi7oUAAAAJ&hl=en), Department of Applied Mathematics, University of Calcutta and have guided [Bivas Bhaumik](https://scholar.google.com/citations?user=FfG_kKQAAAAJ&hl=en&authuser=3) (Currently Assistant Prifessor at Department of Mathematics, [NIT Rourkela](https://nitrkl.ac.in),  during his PhD.
 For more details:
 [Download CV](assets/pdf/CV_satyasaran.pdf)
-
-
-
 <br>
 
 <div style="background-color: #87CEEB; padding: 10px; border: 1px solid #ddd;">
