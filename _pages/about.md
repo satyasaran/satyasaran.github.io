@@ -23,7 +23,7 @@ Before joining Postdoc, I was working as an associate professor in [Institute of
 
 I specialize in Machine Learning  Deep Learning, Physics-informed Machine Learning, and Data-driven Scientific Computing. I had been actively involved in the development of machine learning methods that extract patterns from multimodal agriculture data in crop science from [RadiMax](https://cropinnovation.dk/some-of-the-projects/radimax/) in  [RadiBooster project](https://plen.ku.dk/english/research/crop_sciences/cpps/radibooster/). I have been working also on fine-tuning large language models (LLMs) with retrieval-augmented generation (RAG) in generative AI.  
 
-I have been collaborating with my PhD supervisor [Dr. Soumen De](https://scholar.google.co.in/citations?user=ZwIi7oUAAAAJ&hl=en), Department of Applied Mathematics, University of Calcutta and have supervised [Bivas Bhaumik](https://scholar.google.com/citations?user=FfG_kKQAAAAJ&hl=en&authuser=3) (Currently Assistant Prifessor at Department of Mathematics, [NIT Rourkela](https://nitrkl.ac.in),  during his PhD. Currently I am supervising [Susmita Saha](https://www.researchgate.net/profile/Susmita-Saha-16) and Soumini Dolui for their PhD at University of Calcutta, India.
+I have been collaborating with my PhD supervisor [Dr. Soumen De](https://scholar.google.co.in/citations?user=ZwIi7oUAAAAJ&hl=en), Department of Applied Mathematics, University of Calcutta and have supervised [Bivas Bhaumik](https://scholar.google.com/citations?user=FfG_kKQAAAAJ&hl=en&authuser=3) (Currently Assistant Prifessor at Department of Mathematics, [NIT Rourkela](https://nitrkl.ac.in),  during his PhD.
 For more details:
 [Download CV](assets/pdf/CV_satyasaran.pdf)
 
