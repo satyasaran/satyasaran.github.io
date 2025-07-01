@@ -2,28 +2,28 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
-  image: satyaku.jpeg
-  image_circular: false # crops the image to make it circular
+  image: assets/img/satyaku.jpeg
+  image_circular: false
   address: University of Copenhagen, Denmark
-news: false  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+
+news: false
+selected_papers: false
+social: true
 ---
-  I am [Satyasaran Changdar](https://di.ku.dk/english/staff/vip/?pure=en/persons/723168), Assistant Professor, working in the areas of sustainable food process modeling and new food formulation, Ingredient and Dairy Technology, Department of [Food Science](https://food.ku.dk/english/) [University of Copenhagen] (https://www.ku.dk/english/) under the Supervisons of Prof.[Serafim Bakalis](https://food.ku.dk/english/staff/?pure=en%2Fpersons%2Fserafim-bakalis(1a4bf354-3180-4450-9834-3cd052164d3c)%2Fpublications.html) and collaborted with [Arla foods](https://www.arla.com). From March 2024 to June 2025, I also held a Postdoctoral Research position in the Department of Food Science.
-  
- Previously, I worked [July 2021-Feb 2024] as a postdoc in Applied Machine learning in Plant physiology under the supervision  [Dr. Erik Bjørnager Dam](https://di.ku.dk/english/staff/?pure=en/persons/93620), Professor, [Department of Computer Science](https://di.ku.dk/english/), University of Copenhagen and [Dr. Kristian Thorup-Kristensen](https://plen.ku.dk/english/employees/?pure=en/persons/143157)
-Professor, [Department of Plant and Environmental Sciences](https://plen.ku.dk/english/), University of Copenhagen, Denmark
- and completed my Ph.D. in applied mathematics in 2019 at [University of Calcutta](https://www.caluniv.ac.in) under the supervison of [Dr. Soumen De](https://scholar.google.co.in/citations?user=ZwIi7oUAAAAJ&hl=en) and [Dr. Samiran Ghosh](https://research.caluniv.ac.in/researcher/samiran-ghosh), master of technology in computer applications from [Indian Institute of Technology, Delhi](https://home.iitd.ac.in), India in 2008 and masters in mathematics at [Indian Institute of Technology, Bombay](www.iitb.ac.in), India in 2005. 
-Before joining Postdoc, I was working as an associate professor in [Institute of engineering and Management](https://iem.edu.in), Kolkata, India.
 
-I specialize in Machine Learning  Deep Learning, Physics-informed Machine Learning, and Data-driven Scientific Computing. I had been actively involved in the development of machine learning methods that extract patterns from multimodal agriculture data in crop science from [RadiMax](https://cropinnovation.dk/some-of-the-projects/radimax/) in  [RadiBooster project](https://plen.ku.dk/english/research/crop_sciences/cpps/radibooster/). I have been working also on fine-tuning large language models (LLMs) with retrieval-augmented generation (RAG) in generative AI.  
+I am [Satyasaran Changdar](https://di.ku.dk/english/staff/vip/?pure=en/persons/723168), Assistant Professor, working in the areas of sustainable food process modeling and new food formulation, Ingredient and Dairy Technology, Department of [Food Science](https://food.ku.dk/english/) at the [University of Copenhagen](https://www.ku.dk/english/) under the supervision of Prof. [Serafim Bakalis](https://food.ku.dk/english/staff/?pure=en%2Fpersons%2Fserafim-bakalis(1a4bf354-3180-4450-9834-3cd052164d3c)%2Fpublications.html) and in collaboration with [Arla Foods](https://www.arla.com). From March 2024 to June 2025, I also held a Postdoctoral Research position in the Department of Food Science.
 
+Previously, I worked (July 2021 – Feb 2024) as a postdoc in Applied Machine Learning in Plant Physiology under the supervision of [Dr. Erik Bjørnager Dam](https://di.ku.dk/english/staff/?pure=en/persons/93620), Professor, [Department of Computer Science](https://di.ku.dk/english/), University of Copenhagen, and [Dr. Kristian Thorup-Kristensen](https://plen.ku.dk/english/employees/?pure=en/persons/143157), Professor, [Department of Plant and Environmental Sciences](https://plen.ku.dk/english/), University of Copenhagen, Denmark.
 
+I completed my Ph.D. in Applied Mathematics in 2019 at [University of Calcutta](https://www.caluniv.ac.in) under the supervision of [Dr. Soumen De](https://scholar.google.co.in/citations?user=ZwIi7oUAAAAJ&hl=en) and [Dr. Samiran Ghosh](https://research.caluniv.ac.in/researcher/samiran-ghosh). I received my M.Tech in Computer Applications from [Indian Institute of Technology, Delhi](https://home.iitd.ac.in) in 2008, and my M.Sc. in Mathematics from [Indian Institute of Technology, Bombay](https://www.iitb.ac.in) in 2005.
 
+Before joining the postdoc, I worked as an Associate Professor at the [Institute of Engineering and Management](https://iem.edu.in), Kolkata, India.
+
+I specialize in Machine Learning, Deep Learning, Physics-informed Machine Learning, and Data-driven Scientific Computing. I have been actively involved in developing machine learning methods that extract patterns from multimodal agriculture data in crop science through the [RadiMax](https://cropinnovation.dk/some-of-the-projects/radimax/) and [RadiBooster](https://plen.ku.dk/english/research/crop_sciences/cpps/radibooster/) projects. I am also working on fine-tuning large language models (LLMs) with retrieval-augmented generation (RAG) in generative AI.
 <br>
 
 <div style="background-color: #87CEEB; padding: 10px; border: 1px solid #ddd;">
