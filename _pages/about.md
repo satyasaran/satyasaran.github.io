@@ -24,7 +24,6 @@ Before joining Postdoc, I was working as an associate professor in [Institute of
 I specialize in Machine Learning  Deep Learning, Physics-informed Machine Learning, and Data-driven Scientific Computing. I had been actively involved in the development of machine learning methods that extract patterns from multimodal agriculture data in crop science from [RadiMax](https://cropinnovation.dk/some-of-the-projects/radimax/) in  [RadiBooster project](https://plen.ku.dk/english/research/crop_sciences/cpps/radibooster/). I have been working also on fine-tuning large language models (LLMs) with retrieval-augmented generation (RAG) in generative AI.  
 
 
-
 <br>
 
 <div style="background-color: #87CEEB; padding: 10px; border: 1px solid #ddd;">
