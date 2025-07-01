@@ -25,8 +25,6 @@ I specialize in Machine Learning  Deep Learning, Physics-informed Machine Learni
 
 
 
-
-
 <br>
 
 <div style="background-color: #87CEEB; padding: 10px; border: 1px solid #ddd;">
