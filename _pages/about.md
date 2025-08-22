@@ -37,7 +37,7 @@ This project investigates the relationship between root distribution and resourc
 ### Results
 
 <div id="imageContainer" style="border: 8px solid goldenrod; padding: 10px;">
-    <img src="{{ '/assets/img/Fig2.jpeg' | relative_url }}" alt="Result 1" style="width: 400px;">
+    <img src="/assets/img/Fig2.jpeg" alt="Result 1" style="width: 400px;">
 </div>
 
 <button onclick="stopSlideshow()">Stop slide show</button>
@@ -46,10 +46,10 @@ This project investigates the relationship between root distribution and resourc
 <script>
 let currentImageIndex = 0;
 const images = [
-    "{{ '/assets/img/Fig2.jpeg' | relative_url }}",
-    "{{ '/assets/img/Fig5a.jpeg' | relative_url }}",
-    "{{ '/assets/img/Fig3a.jpeg' | relative_url }}",
-    "{{ '/assets/img/Fig6a_left.jpeg' | relative_url }}"
+    "/assets/img/Fig2.jpeg",
+    "/assets/img/Fig5a.jpeg",
+    "/assets/img/Fig3a.jpeg",
+    "/assets/img/Fig6a_left.jpeg"
 ];
 const imageContainer = document.getElementById('imageContainer');
 let slideshowIntervalId;
@@ -83,9 +83,9 @@ In this project, our objective was to employ deep learning techniques to analyze
 ### Results
 
 <div class="project-images" style="border: 4px solid goldenrod; padding: 10px;">
-    <img src="{{ '/assets/img/grad1.png' | relative_url }}" alt="Result 1" style="width: 600px;">
-    <img src="{{ '/assets/img/grad2.png' | relative_url }}" alt="Result 2" style="width: 600px;">
-    <img src="{{ '/assets/img/grad3.png' | relative_url }}" alt="Result 3" style="width: 600px;">
+    <img src="/assets/img/grad1.png" alt="Result 1" style="width: 600px;">
+    <img src="/assets/img/grad2.png" alt="Result 2" style="width: 600px;">
+    <img src="/assets/img/grad3.png" alt="Result 3" style="width: 600px;">
 </div>
 
 ---
@@ -98,18 +98,18 @@ In this project, our objective was to employ deep learning techniques to analyze
 This work introduces a Python implementation for solving non-linear PDEs arising in arterial blood flow using DeepXDE. The approach analyzes perturbations in arterial blood flow, with a focus on pressure and radius variations. A mathematical model simulates viscoelastic arterial flow, incorporating long wavelength and large Reynolds number assumptions. Physics-informed deep neural networks, trained via automatic differentiation, efficiently solve these equations. Bayesian Hyperparameter Optimization identifies the optimal neural network architecture, providing an efficient and accurate alternative to numerical methods.
 
 <div class="project-images" style="border: 4px solid goldenrod; padding: 10px;">
-    <img src="{{ '/assets/img/eqn.jpeg' | relative_url }}" alt="Equation" style="width: 800px;">
+    <img src="/assets/img/eqn.jpeg" alt="Equation" style="width: 800px;">
 </div>
 
 ### Results
 
 <div id="imageContainer3" class="project-images" style="border: 4px solid goldenrod; padding: 10px;">
-    <img src="{{ '/assets/img/pinn.jpg' | relative_url }}" alt="Result 1" style="width: 500px;">
-    <img src="{{ '/assets/img/loss.jpg' | relative_url }}" alt="Result 2" style="width: 500px; display: none;">
-    <img src="{{ '/assets/img/sol1.jpg' | relative_url }}" alt="Result 3" style="width: 500px; display: none;">
-    <img src="{{ '/assets/img/bay.jpg' | relative_url }}" alt="Result 4" style="width: 500px; display: none;">
-    <img src="{{ '/assets/img/sol2.jpg' | relative_url }}" alt="Result 5" style="width: 500px; display: none;">
-    <img src="{{ '/assets/img/sol3.jpg' | relative_url }}" alt="Result 6" style="width: 500px; display: none;">
+    <img src="/assets/img/pinn.jpg" alt="Result 1" style="width: 500px;">
+    <img src="/assets/img/loss.jpg" alt="Result 2" style="width: 500px; display: none;">
+    <img src="/assets/img/sol1.jpg" alt="Result 3" style="width: 500px; display: none;">
+    <img src="/assets/img/bay.jpg" alt="Result 4" style="width: 500px; display: none;">
+    <img src="/assets/img/sol2.jpg" alt="Result 5" style="width: 500px; display: none;">
+    <img src="/assets/img/sol3.jpg" alt="Result 6" style="width: 500px; display: none;">
 </div>
 
 <button onclick="stopSlideshow3()">Stop slide show</button>
@@ -117,20 +117,12 @@ This work introduces a Python implementation for solving non-linear PDEs arising
 
 <script>
 let currentImageIndex3 = 0;
-const images3 = [
-    "{{ '/assets/img/pinn.jpg' | relative_url }}",
-    "{{ '/assets/img/loss.jpg' | relative_url }}",
-    "{{ '/assets/img/sol1.jpg' | relative_url }}",
-    "{{ '/assets/img/bay.jpg' | relative_url }}",
-    "{{ '/assets/img/sol2.jpg' | relative_url }}",
-    "{{ '/assets/img/sol3.jpg' | relative_url }}"
-];
 const imgElements3 = document.getElementById('imageContainer3').getElementsByTagName('img');
 let slideshowIntervalId3;
 
 function nextImage3() {
     imgElements3[currentImageIndex3].style.display = 'none';
-    currentImageIndex3 = (currentImageIndex3 + 1) % images3.length;
+    currentImageIndex3 = (currentImageIndex3 + 1) % imgElements3.length;
     imgElements3[currentImageIndex3].style.display = 'block';
 }
 
@@ -155,8 +147,4 @@ startSlideshow3();
 
 [Paper link](https://doi.org/10.48550/arXiv.2401.06499)
 
-Automated segmentation of distinct tumor regions is critical for accurate diagnosis and treatment planning in pediatric brain tumors. This study evaluates the efficacy of the Multi-Planner U-Net (MPUnet) approach in segmenting different tumor subregions across three challenging datasets: PED, MET, and SSA. Multi-planar information enhances segmentation accuracy. Our results show high accuracy for the tumor core class, with variability in edema and enhancing tumor regions. Further refinement and inclusion of more MRI data can improve outcomes.
-
-<div class="project-images" style="border: 4px solid goldenrod; padding: 10px;">
-    <img src="{{ '/assets/img/brain.png' | relative_url }}" alt="Brain Tumor Result" style="width: 800px;">
-</div>
+Automated segmentation of distinct tumor regions is critical for accurate diagnosis and treatment planning in pediatric brain tumors. This study evaluates the efficacy of the Multi-Planner U-Net (MPUnet) approach in segmenting different tumor subregions across three challenging datasets: PED, MET, and SSA. Multi-planar information enhances segmentation accuracy. Our results show high accuracy
