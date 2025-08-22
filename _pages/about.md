@@ -2,14 +2,12 @@
 layout: about
 title: about
 permalink: /
-subtitle:
-
+subtitle: ""
 profile:
   align: right
   image: assets/img/satyaku.jpeg
   image_circular: false
   address: University of Copenhagen, Denmark
-
 news: false
 selected_papers: false
 social: true
