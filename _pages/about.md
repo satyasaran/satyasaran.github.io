@@ -27,7 +27,7 @@ I specialize in Machine Learning, Deep Learning, Physics-informed Machine Learni
 <br>
 
 <div style="background-color: #87CEEB; padding: 10px; border: 1px solid #ddd;">
-    <h2 style="margin: 0;font-weight: bold;">Current Research Projects </h2>
+    <h2 style="margin: 0;font-weight: bold;">Research Projects completed in University of Copenhagen </h2>
 </div>
 <br>
 ## Project 1: RadiMax: Machine Learning for understanding plant root function
