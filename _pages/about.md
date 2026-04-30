@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: satyakucn.jpeg
+  image: satya26-2.png
   image_circular: false
   address: University of Copenhagen, Denmark
 
